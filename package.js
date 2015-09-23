@@ -5,7 +5,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-//	api.use(["mongo", "underscore"]);
+	api.use(["mongo"]);
 
 	if(api.versionsFrom) {
 		api.versionsFrom('METEOR@0.9.0');
